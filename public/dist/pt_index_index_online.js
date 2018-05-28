@@ -1600,17 +1600,7 @@ I$(141, function (t, e, i, n, s, o) {
 }, 31, 32, 2, 144);
 I$(142, function (t, e, i, n, s, o, a, _, r, d, l, c, h, u, f, p, g, $, m) {
     function v() {
-        a._$allocate({
-            num: t._$get("banner-num").value,
-            autoPlay: !0,
-            callback: function (e) {
-                var i, n = t._$getByClassName(document, "u-prompt")[0].children,
-                    s = n.length;
-                for (i = 0; i < s; i++) n[i].className = "item";
-                if (2 === s) n[e % 2].className = "item is-active";
-                else n[e].className = "item is-active"
-            }
-        })
+      
     }
     function y() {
         for (var e, i, n = document.getElementById("recommends"), s = t._$getChildren(n), o = 0;;) {
