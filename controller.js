@@ -2,19 +2,19 @@
 const Service = require('./service')
 
 
-module.exports =  class Controller{
+module.exports = class Controller {
 
-    static reader(ctx){
-         let query = ctx.query
-         let options = {
-             name:query.name
-         }
-         let total = Service.getTotal(options)
+    static reader(ctx) {
+        let query = ctx.query, options = {
+            name: query.name
+        }, pInfo = await Service.getInfo(options)
 
-         ctx.body = {
-             name:query.name,
-             total:total
-         }
+
+        ctx.body = {
+            name: query.name,
+            images: pInfo.list,
+            total: pInfo.total
+        }
 
     }
 
