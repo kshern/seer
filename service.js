@@ -1,6 +1,8 @@
-module.exports = class Service{
-    static getTotal(){
 
+
+module.exports = class Service{
+    static async getInfo(){
+        
         
     }
 

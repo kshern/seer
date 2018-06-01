@@ -525,10 +525,8 @@ html input[disabled] {
 .m-foot {
     color: #999;
 }
-</style>
 
-<link href="/dist/core_online.css" type="text/css" rel="stylesheet">
-<style type="text/css">
+
 .reader-toolbar {}
 
 .reader-toolbar-progress {
@@ -1529,9 +1527,6 @@ screen and (min-resolution: 2.0dppx) {
         background-size: 355px 294px;
     }
 }
-</style>
-
-<style type="text/css">
 @-webkit-keyframes toastFadeOut {
     0% {
         opacity: 1;
@@ -1728,9 +1723,6 @@ screen and (min-resolution: 2.0dppx) {
     cursor: default;
     background-color: #bbb;
 }
-</style>
-
-<style type="text/css">
 object,
 embed {
     -webkit-animation-duration: .001s;
